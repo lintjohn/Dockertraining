@@ -1,0 +1,71 @@
+
+Day 1 - Docker Essentials
+
+Module 1 : Course Overview
+
+•	Module 1.1 : Introduction to the course
+
+Module 2 : Understanding Docker
+
+•	2.1 - Module Introduction
+
+•	2 .2 - What is Virtualization
+
+•	2.3 what are Containers
+
+•	2.4 : Containerization and virtualization differences
+
+•	2.5 : Case study : 100 developer environment
+
+•	2.6 : difference between win and linux containers
+
+•	2.7 : Docker ecosystem and components
+
+Module 3 : Installing Docker on Linux
+
+•	3.1 : Module Introduction
+
+•	3.2 - Installing Docker on ubuntu 16.04 server
+
+Module 4 : Containers On Ubuntu Docker host
+
+•	4.1 : Module Introduction
+
+•	4.2 : Deploy ,Login,exit contianer
+
+•	4.3: List,Start, Stop, restart containers
+
+•	4.4 where containers are stored
+
+•	4.5 : working with container hostnames
+
+•	4.6 working on multiple containers
+
+•	4.7 Container stats and inspect
+
+•	4.8 Container networking
+
+•	4.9 Deleting containers
+
+
+Module 5 : Docker Volumes
+
+•	5.1 : Module introduction
+
+•	5.2 : Introduction to Docker volumes
+
+•	5.3 : Launch a container with volume attached
+
+•	5.4 : Recovering volume
+
+•	5.5 : Module Summary
+
+Module 6 : Docker Networking
+
+•	6.1 : Module introduction
+
+•	6.2 create two distinct networks
+
+•	6.3 Launch container 1 and container 2 on two different networks
+
+•	6.4 connect container 1 to both networks
