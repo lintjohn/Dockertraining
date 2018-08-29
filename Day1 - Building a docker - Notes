@@ -1,7 +1,7 @@
 mkdir FirstContainer
 cd FirstContainer
 ## Create index.html and add below file
-<h1>Hello world </h1>
+<h1>Hello World </h1>
 
 touch Dockerfile
 ##open the folder in text editor, 
@@ -14,4 +14,13 @@ CMD ["nginx", "-g", "daemon off;"]
 ## execute in teminal
 docker build -t my-nginx-image:latest .
 docker run -d -p 3600:80 my-nginx-image:latest
+
+## check it is running or not
+docker ps -a
+## it should show up and running
+
+##check in browser
+localhost:3600
+## it should display "Hello World"
+
 
