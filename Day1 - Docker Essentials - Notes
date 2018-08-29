@@ -1,1 +1,35 @@
 
+Customize your Image
+====================
+
+root@zameer# docker pull ubuntu
+root@zameer# docker run -it ubuntu
+
+## ubuntu is running now, you are inside the ubuntu and the name will be changed dynamic one like "root@asdfjalkjso:/#"
+
+root@asdfjalkjso:/# apt-get update
+root@asdfjalkjso:/# apt-get install wget
+root@asdfjalkjso:/# apt-get install nodejs
+root@asdfjalkjso:/# apt-get install npm
+## we have installed wget, nodejs and npm on top of base ubuntu
+
+root@asdfjalkjso:/# exit
+
+## now you are back to your server/VM
+root@zameer# docker ps -a
+## you can see your docker history up/exist
+root@zameer# docker images
+## you can see the image which you installed additional packages ex: ubuntu
+
+root@zameer# docker commit ubuntu cutom-ubuntu
+## here ubuntu is base name which we see in images, now we are committed to cutom-ubuntu name
+
+root@zameer# docker images
+root@zameer# docker run -it custom-ubuntu
+## this ran, we are inside custome-ubuntu 
+## we are trying to check is nodejs is available or not, as we was installed
+root@asdfasdfaf:/# which nodejs
+/usr/bin/nodejs
+## if you see this path, then you are good
+
+
