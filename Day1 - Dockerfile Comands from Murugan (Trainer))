@@ -1,0 +1,24 @@
+mkdir FirstContainer
+cd FirstContainer
+#create index.html and add below file
+<h1>Change the text </h1>
+touch Dockerfile
+
+#Open the folder in Text editor, lets use VS code $code .
+#Add below code
+
+FROM nginx:1.11-alpine
+COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]
+
+#execute in terminal
+docker build -t my-nginx-image:latest .
+docker run -d -p 80:80 my-nginx-image:latest
+
+docker login
+docker ps -a
+
+docker tag my-nginx-image murughan1985/my-nginx-image 
+docker push murughan1985/my-nginx-image
+https://hub.docker.com/
