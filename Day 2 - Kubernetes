@@ -1,0 +1,32 @@
+Day 2 - Kubernetes
+
+
+Module 1 : Kubernetes cluster Install and configure ( Hands on lab by students)
+
+•	Kuberentes architecture and use case
+
+•	Deploy 4 virtual machines running centos7 OS
+
+•	SSH to to VM1 and configure it Kubernetes master node
+
+•	SSH to to VM2 and configure it Kubernetes Minion node-01
+
+•	SSH to to VM3 and configure it Kubernetes Minion node-02
+
+•	SSH to to VM4 and configure it Kubernetes Minion node-03
+
+•	Perform Kubernetes essential commands
+
+
+
+Module 2 : Create a manage POD, Deployment and replication controller ( Hands on lab by students)
+
+•	Write pod.yaml and create Kuberentes POD – create and manage PODS
+
+•	Write deployment.yaml and create Kuberentes deployment – create and manage deployments
+
+•	Write replica.yaml and create Kuberentes replica and service
+
+•	Creating deployments of containers with cpu and memory reservation
+
+•	Creating containers with persistent volumes
